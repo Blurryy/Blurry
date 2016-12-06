@@ -1,0 +1,147 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Lato;
+    background-color: #000000;
+    min-height: 100%;
+    min-width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#player {
+    object-fit: inherit;
+    position: fixed;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#gang {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.0);
+    border: 1px solid rgba(0, 0, 0, 0.0);
+    width: 900px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+
+
+}
+
+#gang > h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: inline-block;
+    -webkit-animation:rainbow 3s infinite;
+    -ms-animation:rainbow 3s infinite;
+    -o-animation:rainbow 3s infinite;
+    animation:rainbow 3s infinite;
+
+}
+
+@-webkit-keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+@-ms-keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+@-o-keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+@keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+
+
+#gang a, #gang a:visited {
+    color: #DC143C;
+    text-decoration: none;
+    -moz-transition: all 300ms ease-in;
+    -o-transition: all 300ms ease-in;
+    -webkit-transition: all 300ms ease-in;
+    transition: all 300ms ease-in;
+}
+
+
+#gang > p {
+    margin-bottom: 0;
+    font-size: 50px;
+}
+.ghost-button {
+  display: inline-block;
+  width: px;
+  padding: 1px;
+  color: #fff;
+  border: 1px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+    font-size: 100px;
+}
+.ghost-button:hover,
+.ghost-button:active {
+  background-color: #fff;
+  color: #000;
+}
+
+
+  border-color: rgba(255, 255, 255, 0.1);
+}
